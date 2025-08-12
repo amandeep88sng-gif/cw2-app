@@ -1,0 +1,781 @@
+Error: Unable to access jarfile jenkins.war
+Error: Unable to access jarfile jenkins.war
+Error: Unable to access jarfile jenkins.war
+Error: Unable to access jarfile jenkins.war
+Running from: /home/ubuntu/cw2-app/jenkins.war
+webroot: /home/ubuntu/.jenkins/war
+2025-08-06 13:00:43.657+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2025-08-06 13:00:43.750+0000 [id=1]	WARNING	o.e.j.ee9.nested.ContextHandler#setContextPath: Empty contextPath
+2025-08-06 13:00:43.838+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-12.0.23; built: 2025-07-02T14:02:02.445Z; git: 01a4119797e9cee53c974ae126cc316d0c8a533a; jvm 17.0.15+6-Ubuntu-0ubuntu124.04
+2025-08-06 13:00:44.507+0000 [id=1]	INFO	o.e.j.e.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.ee9.jsp.JettyJspServlet
+2025-08-06 13:00:44.587+0000 [id=1]	INFO	o.e.j.s.DefaultSessionIdManager#doStart: Session workerName=node0
+2025-08-06 13:00:45.274+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: /home/ubuntu/.jenkins found at: $user.home/.jenkins
+2025-08-06 13:00:45.446+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started oeje9n.ContextHandler$CoreContextHandler@f713686{Jenkins v2.522,/,b=file:///home/ubuntu/.jenkins/war/,a=AVAILABLE,h=oeje9n.ContextHandler$CoreContextHandler$CoreToNestedHandler@74f7d1d2{STARTED}}
+2025-08-06 13:00:45.471+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@35038141{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-08-06 13:00:45.494+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started oejs.Server@d706f19{STARTING}[12.0.23,sto=0] @2551ms
+2025-08-06 13:00:45.501+0000 [id=24]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2025-08-06 13:00:45.717+0000 [id=23]	INFO	jenkins.model.Jenkins#<init>: Starting version 2.522
+2025-08-06 13:00:45.842+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2025-08-06 13:00:45.979+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2025-08-06 13:00:51.052+0000 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2025-08-06 13:00:51.097+0000 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2025-08-06 13:00:51.191+0000 [id=31]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2025-08-06 13:00:51.753+0000 [id=29]	INFO	h.p.b.g.GlobalTimeOutConfiguration#load: global timeout not set
+2025-08-06 13:00:53.068+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2025-08-06 13:00:53.079+0000 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2025-08-06 13:00:53.467+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2025-08-06 13:00:53.470+0000 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2025-08-06 13:00:53.543+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2025-08-06 13:00:53.588+0000 [id=23]	INFO	hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+2025-08-06 13:04:27.658+0000 [id=182]	WARNING	o.j.p.w.f.FlowExecutionList$DefaultStorage#unregister: devops-cw2-pipeline#11 was not in the list to begin with: []
+2025-08-06 13:04:32.116+0000 [id=201]	WARNING	o.j.p.w.f.FlowExecutionList$DefaultStorage#unregister: devops-cw2-pipeline#12 was not in the list to begin with: []
+2025-08-06 13:05:59.546+0000 [id=15]	INFO	hudson.PluginManager#install: Starting installation of a batch of 1 plugins plus their dependencies
+2025-08-06 13:05:59.547+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of sshd for plugin git-server
+2025-08-06 13:05:59.897+0000 [id=446]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of sshd on behalf of admin
+2025-08-06 13:05:59.968+0000 [id=446]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: sshd
+2025-08-06 13:05:59.968+0000 [id=446]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of git-server on behalf of admin
+2025-08-06 13:05:59.969+0000 [id=446]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading git-server
+2025-08-06 13:06:00.688+0000 [id=446]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: git-server
+2025-08-06 13:06:00.688+0000 [id=446]	INFO	h.m.UpdateCenter$CompleteBatchJob#run: Completing installing of plugin batch…
+2025-08-06 13:06:01.036+0000 [id=455]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2025-08-06 13:06:01.037+0000 [id=458]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2025-08-06 13:06:01.037+0000 [id=458]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2025-08-06 13:06:01.037+0000 [id=458]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2025-08-06 13:06:01.037+0000 [id=458]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2025-08-06 13:06:01.037+0000 [id=458]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2025-08-06 13:06:01.038+0000 [id=458]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2025-08-06 13:06:01.038+0000 [id=458]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2025-08-06 13:06:01.038+0000 [id=455]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2025-08-06 13:06:01.039+0000 [id=456]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2025-08-06 13:06:01.040+0000 [id=446]	INFO	h.m.UpdateCenter$CompleteBatchJob#run: Completed installation of 2 plugins in 1.4 sec
+2025-08-06 13:06:54.918+0000 [id=15]	INFO	hudson.PluginManager#install: Starting installation of a batch of 5 plugins plus their dependencies
+2025-08-06 13:06:54.918+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of blueocean-pipeline-api-impl for plugin blueocean-git-pipeline
+2025-08-06 13:06:54.919+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of pipeline-graph-analysis for plugin blueocean-pipeline-api-impl
+2025-08-06 13:06:54.921+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of blueocean-pipeline-scm-api for plugin blueocean-pipeline-api-impl
+2025-08-06 13:06:54.922+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of blueocean-rest for plugin blueocean-pipeline-scm-api
+2025-08-06 13:06:54.922+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of blueocean-commons for plugin blueocean-rest
+2025-08-06 13:06:54.922+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of pubsub-light for plugin blueocean-pipeline-scm-api
+2025-08-06 13:06:54.922+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of htmlpublisher for plugin blueocean-pipeline-api-impl
+2025-08-06 13:06:54.922+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of blueocean-rest-impl for plugin blueocean-pipeline-api-impl
+2025-08-06 13:06:54.923+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of blueocean-web for plugin blueocean-rest-impl
+2025-08-06 13:06:54.923+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of blueocean-core-js for plugin blueocean-web
+2025-08-06 13:06:54.923+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of jenkins-design-language for plugin blueocean-core-js
+2025-08-06 13:06:54.923+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of blueocean-jwt for plugin blueocean-rest-impl
+2025-08-06 13:06:54.923+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of pipeline-graph-analysis on behalf of admin
+2025-08-06 13:06:54.924+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading pipeline-graph-analysis
+2025-08-06 13:06:54.924+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of favorite for plugin blueocean-rest-impl
+2025-08-06 13:06:54.926+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of jersey2-api for plugin gitlab-plugin
+2025-08-06 13:06:55.570+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: pipeline-graph-analysis
+2025-08-06 13:06:55.570+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-commons on behalf of admin
+2025-08-06 13:06:55.571+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-commons
+2025-08-06 13:06:56.197+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-commons
+2025-08-06 13:06:56.198+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-rest on behalf of admin
+2025-08-06 13:06:56.198+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-rest
+2025-08-06 13:06:56.898+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-rest
+2025-08-06 13:06:56.898+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of pubsub-light on behalf of admin
+2025-08-06 13:06:56.899+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading pubsub-light
+2025-08-06 13:06:57.748+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: pubsub-light
+2025-08-06 13:06:57.748+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-pipeline-scm-api on behalf of admin
+2025-08-06 13:06:57.748+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-pipeline-scm-api
+2025-08-06 13:06:58.856+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-pipeline-scm-api
+2025-08-06 13:06:58.856+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of htmlpublisher on behalf of admin
+2025-08-06 13:06:58.856+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading htmlpublisher
+2025-08-06 13:06:59.478+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: htmlpublisher
+2025-08-06 13:06:59.479+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of jenkins-design-language on behalf of admin
+2025-08-06 13:06:59.479+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading jenkins-design-language
+2025-08-06 13:07:00.954+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: jenkins-design-language
+2025-08-06 13:07:00.954+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-core-js on behalf of admin
+2025-08-06 13:07:00.955+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-core-js
+2025-08-06 13:07:01.879+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-core-js
+2025-08-06 13:07:01.879+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-web on behalf of admin
+2025-08-06 13:07:01.879+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-web
+2025-08-06 13:07:02.583+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-web
+2025-08-06 13:07:02.583+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-jwt on behalf of admin
+2025-08-06 13:07:02.583+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-jwt
+2025-08-06 13:07:03.171+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-jwt
+2025-08-06 13:07:03.171+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of favorite on behalf of admin
+2025-08-06 13:07:03.171+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading favorite
+2025-08-06 13:07:03.746+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: favorite
+2025-08-06 13:07:03.746+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-rest-impl on behalf of admin
+2025-08-06 13:07:03.746+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-rest-impl
+2025-08-06 13:07:06.198+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-rest-impl
+2025-08-06 13:07:06.198+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-pipeline-api-impl on behalf of admin
+2025-08-06 13:07:06.199+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-pipeline-api-impl
+2025-08-06 13:07:06.840+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-pipeline-api-impl
+2025-08-06 13:07:06.840+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-git-pipeline on behalf of admin
+2025-08-06 13:07:06.840+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-git-pipeline
+2025-08-06 13:07:07.490+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-git-pipeline
+2025-08-06 13:07:07.490+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of blueocean-github-pipeline on behalf of admin
+2025-08-06 13:07:07.490+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading blueocean-github-pipeline
+2025-08-06 13:07:08.071+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: blueocean-github-pipeline
+2025-08-06 13:07:08.071+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of git-parameter on behalf of admin
+2025-08-06 13:07:08.072+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading git-parameter
+2025-08-06 13:07:09.014+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: git-parameter
+2025-08-06 13:07:09.015+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of jersey2-api on behalf of admin
+2025-08-06 13:07:09.015+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading jersey2-api
+2025-08-06 13:07:09.966+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: jersey2-api
+2025-08-06 13:07:09.966+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of gitlab-plugin on behalf of admin
+2025-08-06 13:07:09.966+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading gitlab-plugin
+2025-08-06 13:07:10.676+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: gitlab-plugin
+2025-08-06 13:07:10.676+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of gitlab-api on behalf of admin
+2025-08-06 13:07:10.677+0000 [id=464]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading gitlab-api
+2025-08-06 13:07:12.688+0000 [id=464]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: gitlab-api
+2025-08-06 13:07:12.688+0000 [id=464]	INFO	h.m.UpdateCenter$CompleteBatchJob#run: Completing installing of plugin batch…
+2025-08-06 13:07:13.359+0000 [id=507]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2025-08-06 13:07:13.362+0000 [id=510]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2025-08-06 13:07:13.362+0000 [id=510]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2025-08-06 13:07:13.449+0000 [id=508]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2025-08-06 13:07:13.449+0000 [id=507]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2025-08-06 13:07:13.450+0000 [id=507]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2025-08-06 13:07:13.450+0000 [id=507]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2025-08-06 13:07:13.450+0000 [id=507]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2025-08-06 13:07:13.452+0000 [id=510]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2025-08-06 13:07:13.474+0000 [id=507]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2025-08-06 13:07:13.475+0000 [id=464]	INFO	h.m.UpdateCenter$CompleteBatchJob#run: Completed installation of 19 plugins in 18 sec
+2025-08-06 13:27:31.064+0000 [id=891]	WARNING	o.j.p.w.f.FlowExecutionList$DefaultStorage#unregister: pipeline#1 was not in the list to begin with: []
+2025-08-06 13:43:24.083+0000 [id=1191]	WARNING	o.j.p.w.f.FlowExecutionList$DefaultStorage#unregister: devops-cw2-pipeline#19 was not in the list to begin with: []
+2025-08-06 14:22:47.732+0000 [id=16]	INFO	hudson.PluginManager#install: Starting installation of a batch of 1 plugins plus their dependencies
+2025-08-06 14:22:47.733+0000 [id=1690]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of sonar on behalf of admin
+2025-08-06 14:22:47.734+0000 [id=1690]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading sonar
+2025-08-06 14:22:48.838+0000 [id=1690]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: sonar
+2025-08-06 14:22:48.839+0000 [id=1690]	INFO	h.m.UpdateCenter$CompleteBatchJob#run: Completing installing of plugin batch…
+2025-08-06 14:22:49.885+0000 [id=1690]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.plugins.sonar.MsBuildSonarQubeRunnerInstaller
+2025-08-06 14:22:50.507+0000 [id=1690]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.plugins.sonar.SonarRunnerInstaller
+2025-08-06 14:22:50.549+0000 [id=1700]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2025-08-06 14:22:50.551+0000 [id=1703]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2025-08-06 14:22:50.551+0000 [id=1701]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2025-08-06 14:22:50.551+0000 [id=1701]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2025-08-06 14:22:50.551+0000 [id=1701]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2025-08-06 14:22:50.551+0000 [id=1701]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2025-08-06 14:22:50.552+0000 [id=1703]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2025-08-06 14:22:50.552+0000 [id=1703]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2025-08-06 14:22:50.554+0000 [id=1701]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2025-08-06 14:22:50.563+0000 [id=1702]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2025-08-06 14:22:50.563+0000 [id=1690]	INFO	h.m.UpdateCenter$CompleteBatchJob#run: Completed installation of 1 plugins in 2.8 sec
+2025-08-06 14:34:14.007+0000 [id=1684]	INFO	h.p.b.g.GlobalTimeOutConfiguration#configure: global timeout has been cleared
+2025-08-06 14:58:34.844+0000 [id=2029]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 14:58:34.867+0000 [id=2029]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 15:14:34.118+0000 [id=2206]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 15:14:34.118+0000 [id=2206]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 15:16:07.272+0000 [id=2206]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 15:16:07.272+0000 [id=2206]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 15:16:39.849+0000 [id=2206]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 15:16:39.849+0000 [id=2206]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 15:18:12.067+0000 [id=2721]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 15:18:12.068+0000 [id=2721]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 15:32:47.471+0000 [id=2882]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 15:32:47.472+0000 [id=2882]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 15:39:25.536+0000 [id=3009]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 15:39:25.536+0000 [id=3009]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 15:46:01.082+0000 [id=3127]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 15:46:01.083+0000 [id=3127]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 15:48:10.577+0000 [id=3218]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 15:48:10.577+0000 [id=3218]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 15:50:01.036+0000 [id=60]	WARNING	h.p.s.client.SQProjectResolver#resolve: Error fetching project information
+org.sonarqube.ws.client.HttpException: Error 401 on http://18.170.92.65:9000/api/ce/task?id=AZiAEc0wJPKfyHvTnlUu : 
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.HttpClient.getHttp(HttpClient.java:48)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.WsClient.getCETask(WsClient.java:49)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.SQProjectResolver.requestCETaskDetails(SQProjectResolver.java:90)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.SQProjectResolver.resolve(SQProjectResolver.java:67)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarCacheAction.get(SonarCacheAction.java:76)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarCacheAction.get(SonarCacheAction.java:52)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarProjectActionFactory.createProjectPage(SonarProjectActionFactory.java:123)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarProjectActionFactory.createFor(SonarProjectActionFactory.java:89)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarProjectActionFactory.createFor(SonarProjectActionFactory.java:43)
+	at hudson.model.Actionable.createFor(Actionable.java:118)
+	at hudson.model.Actionable.getAllActions(Actionable.java:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor203.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.commons.jexl.util.PropertyExecutor.execute(PropertyExecutor.java:125)
+	at org.apache.commons.jexl.util.introspection.UberspectImpl$VelGetterImpl.invoke(UberspectImpl.java:314)
+	at org.apache.commons.jexl.parser.ASTArrayAccess.evaluateExpr(ASTArrayAccess.java:185)
+	at org.apache.commons.jexl.parser.ASTIdentifier.execute(ASTIdentifier.java:75)
+	at org.apache.commons.jexl.parser.ASTReference.execute(ASTReference.java:83)
+	at org.apache.commons.jexl.parser.ASTReference.value(ASTReference.java:57)
+	at org.apache.commons.jexl.parser.ASTElvisNode.value(ASTElvisNode.java:37)
+	at org.apache.commons.jexl.parser.ASTExpression.value(ASTExpression.java:54)
+	at org.apache.commons.jexl.parser.ASTElvisNode.value(ASTElvisNode.java:40)
+	at org.apache.commons.jexl.parser.ASTExpression.value(ASTExpression.java:54)
+	at org.apache.commons.jexl.parser.ASTExpressionExpression.value(ASTExpressionExpression.java:56)
+	at org.apache.commons.jexl.ExpressionImpl.evaluate(ExpressionImpl.java:80)
+	at hudson.ExpressionFactory2$JexlExpression.evaluate(ExpressionFactory2.java:76)
+	at org.apache.commons.jelly.expression.ExpressionSupport.evaluateRecurse(ExpressionSupport.java:61)
+	at org.apache.commons.jelly.expression.ExpressionSupport.evaluateAsIterator(ExpressionSupport.java:94)
+	at org.apache.commons.jelly.tags.core.ForEachTag.doTag(ForEachTag.java:89)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:98)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:174)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:98)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:174)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:98)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:67)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:55)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:62)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:42)
+	at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:275)
+	at org.kohsuke.stapler.jelly.JellyFacet.handleIndexRequest(JellyFacet.java:105)
+	at org.kohsuke.stapler.IndexViewDispatcher.dispatch(IndexViewDispatcher.java:34)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:800)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:938)
+	at org.kohsuke.stapler.MetaClass$5.doDispatch(MetaClass.java:369)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:61)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:800)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:938)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:721)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:253)
+	at Jenkins Main ClassLoader//jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHolder.handle(ServletHolder.java:765)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1668)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:204)
+	at PluginClassLoader for blueocean-jwt//io.jenkins.blueocean.auth.jwt.impl.JwtAuthenticationFilter.doFilter(JwtAuthenticationFilter.java:60)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at PluginClassLoader for blueocean-web//io.jenkins.blueocean.ResourceCacheControl.doFilter(ResourceCacheControl.java:134)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at PluginClassLoader for metrics//jenkins.metrics.impl.MetricsFilter.doFilter(MetricsFilter.java:125)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:77)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:207)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:94)
+	at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:114)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:105)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:106)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at hudson.security.ChainedServletFilter2.doFilter(ChainedServletFilter2.java:111)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:173)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at org.kohsuke.stapler.UncaughtExceptionFilter.doFilter(UncaughtExceptionFilter.java:26)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:31)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler.doHandle(ServletHandler.java:526)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.handle(ScopedHandler.java:127)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HandlerWrapper.handle(HandlerWrapper.java:124)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextHandle(ScopedHandler.java:197)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.SessionHandler.doHandle(SessionHandler.java:612)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextHandle(ScopedHandler.java:195)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.doHandle(ContextHandler.java:1045)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:164)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler.doScope(ServletHandler.java:483)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:162)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.SessionHandler.doScope(SessionHandler.java:589)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:162)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.doScope(ContextHandler.java:966)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.handle(ScopedHandler.java:125)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.handle(ContextHandler.java:1719)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1565)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel.dispatch(HttpChannel.java:724)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel.handle(HttpChannel.java:512)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler$CoreContextHandler$CoreToNestedHandler.handle(ContextHandler.java:3029)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1071)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:611)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:678)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:416)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:480)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:443)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:981)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1211)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1166)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-08-06 17:07:48.922+0000 [id=224]	WARNING	h.p.s.client.SQProjectResolver#resolve: Error fetching project information
+org.sonarqube.ws.client.HttpException: Error 401 on http://18.170.92.65:9000/api/ce/task?id=AZiAEc0wJPKfyHvTnlUu : 
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.HttpClient.getHttp(HttpClient.java:48)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.WsClient.getCETask(WsClient.java:49)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.SQProjectResolver.requestCETaskDetails(SQProjectResolver.java:90)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.SQProjectResolver.resolve(SQProjectResolver.java:67)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarCacheAction.get(SonarCacheAction.java:76)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarCacheAction.get(SonarCacheAction.java:52)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarProjectActionFactory.createProjectPage(SonarProjectActionFactory.java:123)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarProjectActionFactory.createFor(SonarProjectActionFactory.java:89)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarProjectActionFactory.createFor(SonarProjectActionFactory.java:43)
+	at hudson.model.Actionable.createFor(Actionable.java:118)
+	at hudson.model.Actionable.getAllActions(Actionable.java:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor203.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.commons.jexl.util.PropertyExecutor.execute(PropertyExecutor.java:125)
+	at org.apache.commons.jexl.util.introspection.UberspectImpl$VelGetterImpl.invoke(UberspectImpl.java:314)
+	at org.apache.commons.jexl.parser.ASTArrayAccess.evaluateExpr(ASTArrayAccess.java:185)
+	at org.apache.commons.jexl.parser.ASTIdentifier.execute(ASTIdentifier.java:75)
+	at org.apache.commons.jexl.parser.ASTReference.execute(ASTReference.java:83)
+	at org.apache.commons.jexl.parser.ASTReference.value(ASTReference.java:57)
+	at org.apache.commons.jexl.parser.ASTElvisNode.value(ASTElvisNode.java:37)
+	at org.apache.commons.jexl.parser.ASTExpression.value(ASTExpression.java:54)
+	at org.apache.commons.jexl.parser.ASTElvisNode.value(ASTElvisNode.java:40)
+	at org.apache.commons.jexl.parser.ASTExpression.value(ASTExpression.java:54)
+	at org.apache.commons.jexl.parser.ASTExpressionExpression.value(ASTExpressionExpression.java:56)
+	at org.apache.commons.jexl.ExpressionImpl.evaluate(ExpressionImpl.java:80)
+	at hudson.ExpressionFactory2$JexlExpression.evaluate(ExpressionFactory2.java:76)
+	at org.apache.commons.jelly.expression.ExpressionSupport.evaluateRecurse(ExpressionSupport.java:61)
+	at org.apache.commons.jelly.expression.ExpressionSupport.evaluateAsIterator(ExpressionSupport.java:94)
+	at org.apache.commons.jelly.tags.core.ForEachTag.doTag(ForEachTag.java:89)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:98)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:174)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:98)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:174)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:98)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:67)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:55)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:62)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:42)
+	at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:275)
+	at org.kohsuke.stapler.jelly.JellyFacet.handleIndexRequest(JellyFacet.java:105)
+	at org.kohsuke.stapler.IndexViewDispatcher.dispatch(IndexViewDispatcher.java:34)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:800)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:938)
+	at org.kohsuke.stapler.MetaClass$5.doDispatch(MetaClass.java:369)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:61)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:800)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:938)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:721)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:253)
+	at Jenkins Main ClassLoader//jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHolder.handle(ServletHolder.java:765)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1668)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:204)
+	at PluginClassLoader for blueocean-jwt//io.jenkins.blueocean.auth.jwt.impl.JwtAuthenticationFilter.doFilter(JwtAuthenticationFilter.java:60)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at PluginClassLoader for blueocean-web//io.jenkins.blueocean.ResourceCacheControl.doFilter(ResourceCacheControl.java:134)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at PluginClassLoader for metrics//jenkins.metrics.impl.MetricsFilter.doFilter(MetricsFilter.java:125)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:77)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:207)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:94)
+	at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:114)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:105)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:106)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at hudson.security.ChainedServletFilter2.doFilter(ChainedServletFilter2.java:111)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:173)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at org.kohsuke.stapler.UncaughtExceptionFilter.doFilter(UncaughtExceptionFilter.java:26)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:31)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler.doHandle(ServletHandler.java:526)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.handle(ScopedHandler.java:127)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HandlerWrapper.handle(HandlerWrapper.java:124)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextHandle(ScopedHandler.java:197)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.SessionHandler.doHandle(SessionHandler.java:612)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextHandle(ScopedHandler.java:195)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.doHandle(ContextHandler.java:1045)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:164)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler.doScope(ServletHandler.java:483)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:162)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.SessionHandler.doScope(SessionHandler.java:589)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:162)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.doScope(ContextHandler.java:966)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.handle(ScopedHandler.java:125)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.handle(ContextHandler.java:1719)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1565)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel.dispatch(HttpChannel.java:724)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel.handle(HttpChannel.java:512)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler$CoreContextHandler$CoreToNestedHandler.handle(ContextHandler.java:3029)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1071)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:611)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:678)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:416)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:480)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:443)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:981)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1211)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1166)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-08-06 17:07:53.018+0000 [id=3767]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 17:07:53.019+0000 [id=3767]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 17:09:37.715+0000 [id=61]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: No valid crumb was included in request for /job/pipeline/build by admin. Returning 403.
+2025-08-06 17:09:38.435+0000 [id=61]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: No valid crumb was included in request for /job/pipeline/build by admin. Returning 403.
+2025-08-06 17:09:54.721+0000 [id=3882]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 17:09:54.721+0000 [id=3882]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 17:15:37.565+0000 [id=4013]	INFO	h.p.sonar.SonarBuildWrapper#setUp: Injecting SonarQube environment variables using the configuration: SonarQube
+2025-08-06 17:15:37.566+0000 [id=4013]	INFO	h.p.sonar.SonarBuildWrapper#createLoggerDecorator: Masking SonarQube passwords
+2025-08-06 17:17:24.183+0000 [id=224]	WARNING	h.p.s.client.SQProjectResolver#resolve: Error fetching project information
+org.sonarqube.ws.client.HttpException: Error 401 on http://18.170.92.65:9000/api/ce/task?id=AZiAYd0kJPKfyHvTnlUv : 
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.HttpClient.getHttp(HttpClient.java:48)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.WsClient.getCETask(WsClient.java:49)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.SQProjectResolver.requestCETaskDetails(SQProjectResolver.java:90)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.client.SQProjectResolver.resolve(SQProjectResolver.java:67)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarCacheAction.get(SonarCacheAction.java:76)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarCacheAction.get(SonarCacheAction.java:52)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarProjectActionFactory.createProjectPage(SonarProjectActionFactory.java:123)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarProjectActionFactory.createFor(SonarProjectActionFactory.java:89)
+	at PluginClassLoader for sonar//hudson.plugins.sonar.action.SonarProjectActionFactory.createFor(SonarProjectActionFactory.java:43)
+	at hudson.model.Actionable.createFor(Actionable.java:118)
+	at hudson.model.Actionable.getAllActions(Actionable.java:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor203.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.commons.jexl.util.PropertyExecutor.execute(PropertyExecutor.java:125)
+	at org.apache.commons.jexl.util.introspection.UberspectImpl$VelGetterImpl.invoke(UberspectImpl.java:314)
+	at org.apache.commons.jexl.parser.ASTArrayAccess.evaluateExpr(ASTArrayAccess.java:185)
+	at org.apache.commons.jexl.parser.ASTIdentifier.execute(ASTIdentifier.java:75)
+	at org.apache.commons.jexl.parser.ASTReference.execute(ASTReference.java:83)
+	at org.apache.commons.jexl.parser.ASTReference.value(ASTReference.java:57)
+	at org.apache.commons.jexl.parser.ASTElvisNode.value(ASTElvisNode.java:37)
+	at org.apache.commons.jexl.parser.ASTExpression.value(ASTExpression.java:54)
+	at org.apache.commons.jexl.parser.ASTElvisNode.value(ASTElvisNode.java:40)
+	at org.apache.commons.jexl.parser.ASTExpression.value(ASTExpression.java:54)
+	at org.apache.commons.jexl.parser.ASTExpressionExpression.value(ASTExpressionExpression.java:56)
+	at org.apache.commons.jexl.ExpressionImpl.evaluate(ExpressionImpl.java:80)
+	at hudson.ExpressionFactory2$JexlExpression.evaluate(ExpressionFactory2.java:76)
+	at org.apache.commons.jelly.expression.ExpressionSupport.evaluateRecurse(ExpressionSupport.java:61)
+	at org.apache.commons.jelly.expression.ExpressionSupport.evaluateAsIterator(ExpressionSupport.java:94)
+	at org.apache.commons.jelly.tags.core.ForEachTag.doTag(ForEachTag.java:89)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:98)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:174)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:98)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:174)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:102)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:100)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:121)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:98)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:67)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:55)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:62)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:42)
+	at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:275)
+	at org.kohsuke.stapler.jelly.JellyFacet.handleIndexRequest(JellyFacet.java:105)
+	at org.kohsuke.stapler.IndexViewDispatcher.dispatch(IndexViewDispatcher.java:34)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:800)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:938)
+	at org.kohsuke.stapler.MetaClass$5.doDispatch(MetaClass.java:369)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:61)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:800)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:938)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:721)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:253)
+	at Jenkins Main ClassLoader//jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHolder.handle(ServletHolder.java:765)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1668)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:204)
+	at PluginClassLoader for blueocean-jwt//io.jenkins.blueocean.auth.jwt.impl.JwtAuthenticationFilter.doFilter(JwtAuthenticationFilter.java:60)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at PluginClassLoader for blueocean-web//io.jenkins.blueocean.ResourceCacheControl.doFilter(ResourceCacheControl.java:134)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at PluginClassLoader for metrics//jenkins.metrics.impl.MetricsFilter.doFilter(MetricsFilter.java:125)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:77)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:207)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:94)
+	at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:114)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:105)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:106)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at hudson.security.ChainedServletFilter2.doFilter(ChainedServletFilter2.java:111)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:173)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at org.kohsuke.stapler.UncaughtExceptionFilter.doFilter(UncaughtExceptionFilter.java:26)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:31)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler.doHandle(ServletHandler.java:526)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.handle(ScopedHandler.java:127)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HandlerWrapper.handle(HandlerWrapper.java:124)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextHandle(ScopedHandler.java:197)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.SessionHandler.doHandle(SessionHandler.java:612)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextHandle(ScopedHandler.java:195)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.doHandle(ContextHandler.java:1045)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:164)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler.doScope(ServletHandler.java:483)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:162)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.SessionHandler.doScope(SessionHandler.java:589)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:162)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.doScope(ContextHandler.java:966)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.handle(ScopedHandler.java:125)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.handle(ContextHandler.java:1719)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1565)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel.dispatch(HttpChannel.java:724)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel.handle(HttpChannel.java:512)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler$CoreContextHandler$CoreToNestedHandler.handle(ContextHandler.java:3029)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1071)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:611)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:678)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:416)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:480)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:443)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:981)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1211)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1166)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-08-06 17:19:41.198+0000 [id=25]	INFO	winstone.Logger#logInternal: JVM is terminating. Shutting down Jetty
+2025-08-06 17:19:41.199+0000 [id=25]	INFO	org.eclipse.jetty.server.Server#doStop: Stopped oejs.Server@d706f19{STOPPING}[12.0.23,sto=0]
+2025-08-06 17:19:41.200+0000 [id=25]	INFO	o.e.j.server.AbstractConnector#doStop: Stopped ServerConnector@35038141{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-08-06 17:19:41.204+0000 [id=25]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+2025-08-06 17:19:41.226+0000 [id=25]	INFO	jenkins.model.Jenkins$17#onAttained: Started termination
+2025-08-06 17:19:41.226+0000 [id=25]	INFO	h.p.b.global.Lifecycle#shutdown: Shutdown complete - Global TimeOut ScheduledExecutorService had 0 tasks pending
+2025-08-06 17:19:41.240+0000 [id=25]	INFO	jenkins.model.Jenkins$17#onAttained: Completed termination
+2025-08-06 17:19:41.240+0000 [id=25]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+2025-08-06 17:19:41.246+0000 [id=25]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+2025-08-06 17:19:41.303+0000 [id=25]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+2025-08-06 17:19:41.314+0000 [id=25]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+2025-08-06 17:19:41.314+0000 [id=25]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
