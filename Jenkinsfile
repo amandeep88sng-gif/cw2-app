@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven 3.8.7'  // Replace with the name you gave the Maven installation
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -9,7 +13,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn clean install'  // or any build command for your app
+                sh 'mvn clean install'
             }
         }
         stage('SonarQube Analysis') {
@@ -25,12 +29,12 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn test'  
+                sh 'mvn test'
             }
         }
         stage('Deploy') {
             steps {
-                sh 'kubectl apply -f deployment.yaml'  
+                sh 'kubectl apply -f deployment.yaml'
             }
         }
     }
