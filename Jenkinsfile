@@ -25,12 +25,12 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn test'  // Run your tests here
+                sh 'mvn test'  
             }
         }
         stage('Deploy') {
             steps {
-                sh 'kubectl apply -f deployment.yaml'  // or your deployment command
+                sh 'kubectl apply -f deployment.yaml'  
             }
         }
     }
