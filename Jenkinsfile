@@ -2,27 +2,35 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
+        stage('Checkout') {
             steps {
-                git 'https://github.com/h50226068-code/devops-cw.git'
+                git 'https://github.com/amandeep88sng-gif/cw2-app.git'
             }
         }
-
         stage('Build') {
             steps {
-                sh 'echo "Building..."'
+                sh 'mvn clean install'  // or any build command for your app
             }
         }
-
+        stage('SonarQube Analysis') {
+            steps {
+                withSonarQubeEnv('sonarqube') {
+                    sh 'sonar-scanner \
+                      -Dsonar.projectKey=currency-ci \
+                      -Dsonar.sources=. \
+                      -Dsonar.host.url=http://13.41.66.166:9000 \
+                      -Dsonar.login=sqp_f39d8ef1854532fce2f90b13451940cebe3b5ee9'
+                }
+            }
+        }
         stage('Test') {
             steps {
-                sh 'echo "Running tests..."'
+                sh 'mvn test'  // Run your tests here
             }
         }
-
         stage('Deploy') {
             steps {
-                sh 'echo "Deploying application..."'
+                sh 'kubectl apply -f deployment.yaml'  // or your deployment command
             }
         }
     }
